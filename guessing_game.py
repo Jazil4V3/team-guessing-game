@@ -1,5 +1,6 @@
 import random
 
+while True: 
 number = random.randint(1,100) #Bigger range
 
 print("Guess a number between 1 and 100")
@@ -16,3 +17,7 @@ if guess == number:
 
 else:
     print("Wrong!The number was{number}")
+    
+    print("Play again? (y/n)") 
+    if input().lower() != 'y': 
+        break 
