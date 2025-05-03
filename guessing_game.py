@@ -13,7 +13,7 @@ elif guess > number:
     print("Too high!") 
 
 if guess == number:
-    print ("You Win! ")  #changed Victory to You Win!
+    print ("Victory ")  #changed You Win! to Victory
 
 else:
     print("Wrong!The number was{number}")
