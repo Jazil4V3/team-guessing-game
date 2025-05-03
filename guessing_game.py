@@ -1,9 +1,9 @@
 import random
 
 while True: 
-number = random.randint(1,100) #Bigger range
+number = random.randint(1,75) #Bigger range(75)
 
-print("Guess a number between 1 and 100")
+print("Guess a number between 1 and 75")
 
 guess = int(input())
 
